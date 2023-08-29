@@ -1,7 +1,8 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    var inventory = arrayListOf<String>("Buns", "Ketchup", "Mustard", "Dogs", "Relish", "Onions")
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    for (item in inventory){
+        println(item)
+
+    }
 }
